@@ -26,5 +26,6 @@ namespace CarInsurance2.Models
         public int SpeedingTickets { get; set; }
         public bool CoverageType { get; set; }
         public decimal Quote { get; set; }
+        public int Age { get; internal set; }
     }
 }
